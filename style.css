@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Public+Sans:wght@400;600;700&display=swap');
+
 /* Global reset & box sizing */
 * {
   box-sizing: border-box;
@@ -109,11 +111,23 @@ button:hover {
   margin-top: 10px;
   min-height: 3em;
   line-height: 1.2;
+  font-family: Inter, sans-serif;
+  color: #0B3D91;
+  font-weight: 700;
+}
+
+.card-date {
+  text-align: left;
+  font-family: Inter, sans-serif;
+  color: #E81B23;
+  font-weight: 600;
+  margin-top: 8px !important;
 }
 
 .card p {
   text-align: left;
   margin-top: auto;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .modal {
@@ -145,6 +159,24 @@ button:hover {
   height: 500px;
   display: block;
   margin-bottom: 15px;
+}
+
+#modalTitle {
+  font-family: Inter, sans-serif;
+  color: #0B3D91;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+#modalDate {
+  font-family: Inter, sans-serif;
+  color: #E81B23;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+#modalExplanation {
+  font-family: 'Public Sans', sans-serif;
 }
 
 .close-btn {

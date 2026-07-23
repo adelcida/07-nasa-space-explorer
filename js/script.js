@@ -92,6 +92,7 @@ async function fetchImages() {
 
     const dateEle = document.createElement('p');
     dateEle.textContent = formatted;
+    dateEle.className = 'card-date';
 
   
     card.appendChild(imgEle);
