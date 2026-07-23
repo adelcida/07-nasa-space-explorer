@@ -16,7 +16,12 @@
     <div class="filters">
       <input type="date" id="startDate" />
       <input type="date" id="endDate" />
-      <button>Get Space Images</button>
+      <button id="searchBtn">Get Space Images</button>
+    </div>
+
+    <div class="did-you-know">
+      <h3>💡 Did You Know?</h3>
+      <p id="randomFact"></p>
     </div>
 
     <div id="gallery" class="gallery">
@@ -24,6 +29,17 @@
         <div class="placeholder-icon">🔭</div>
         <p>Select a date range and click "Get Space Images" to explore the cosmos!</p>
       </div>
+    </div>
+    
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="closeModal" class="close-btn">x</button>
+      <img id="modalImage" src="" alt="">
+      <h2 id="modalTitle"></h2>
+      <h4 id="modalDate"></h4>
+      <p id="modalExplanation"></p>
     </div>
   </div>
 
